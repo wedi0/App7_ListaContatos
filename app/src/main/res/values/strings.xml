@@ -18,4 +18,5 @@
     <string name="campoVazio">!ERRO! Algum campo está vazio!</string>
     <string name="usuarioJaExiste">!ERRO! Este nome de usuário já está em uso.</string>
     <string name="criacaoDeUserCompleta">Criação de usuário feita com sucesso</string>
+    <string name="loginInvalid">!ERRO! Login invalido.</string>
 </resources>
