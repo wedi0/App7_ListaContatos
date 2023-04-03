@@ -14,4 +14,8 @@
     <string name="btn_novoContato">Novo contato</string>
     <string name="InvalidLogin">Login, preencha o campo para logar</string>
     <string name="novoUsario">Novo usuário</string>
+    <string name="senha_diferente">!ERRO! As senhas não são iguais!</string>
+    <string name="campoVazio">!ERRO! Algum campo está vazio!</string>
+    <string name="usuarioJaExiste">!ERRO! Este nome de usuário já está em uso.</string>
+    <string name="criacaoDeUserCompleta">Criação de usuário feita com sucesso</string>
 </resources>

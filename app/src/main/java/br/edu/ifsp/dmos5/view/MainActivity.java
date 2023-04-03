@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
          inputPassword =findViewById(R.id.edittext_password);
          btn_login= findViewById(R.id.buttonLogin);
          btn_newUser = findViewById(R.id.buttonNewUser);
+
+         btn_newUser.setOnClickListener(this);
+         btn_login.setOnClickListener(this);
      }
 
 

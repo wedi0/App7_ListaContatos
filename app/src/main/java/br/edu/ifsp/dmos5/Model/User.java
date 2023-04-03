@@ -1,8 +1,9 @@
-package Model;
+package br.edu.ifsp.dmos5.Model;
 
 import java.util.List;
 
 import br.edu.ifsp.dmos5.Model.Contact;
+import br.edu.ifsp.dmos5.view.MD5.Criptografia;
 
 public class User {
     private String username;
@@ -11,10 +12,16 @@ public class User {
 
 
 
+
     public User(String username, String senha) {
         this.username = username;
-        this.senha = senha;
+        this.senha = criptografando(senha);
 
+    }
+
+    public String criptografando(String senha){
+
+        return Criptografia.criptografarSenha(senha);
     }
 
     public String getUsername() {
@@ -26,7 +33,7 @@ public class User {
     }
 
     public String getSenha() {
-        return senha;
+        return Criptografia.criptografarSenha(senha);
     }
 
     public void setSenha(String senha) {
