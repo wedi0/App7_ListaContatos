@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="newContact">Novo contato</string>
+    <string name="newUser">Novo usuário</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="contato">Contatos</string>
+    <string name="confPassword">Conf. password</string>
+    <string name="nome">Nome</string>
+    <string name="save">Salvar</string>
+    <string name="telefone">Telefone</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_cadastrar">Novo usuário</string>
+    <string name="btn_novoContato">Novo contato</string>
+    <string name="InvalidLogin">Login, preencha o campo para logar</string>
+    <string name="novoUsario">Novo usuário</string>
+</resources>
